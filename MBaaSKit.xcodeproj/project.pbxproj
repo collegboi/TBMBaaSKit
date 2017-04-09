@@ -15,6 +15,10 @@
 		1590A9E51E9ADDEC00071691 /* InterfaceImageLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590A9E41E9ADDEC00071691 /* InterfaceImageLoad.swift */; };
 		1590A9E71E9ADF6600071691 /* TBWKInterfaceGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590A9E61E9ADF6600071691 /* TBWKInterfaceGroup.swift */; };
 		1590A9E91E9ADF9200071691 /* InterfaceGroupLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590A9E81E9ADF9200071691 /* InterfaceGroupLoad.swift */; };
+		1590A9EE1E9AE21800071691 /* RCConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590A9EB1E9AE1D800071691 /* RCConfigManager.swift */; };
+		1590A9EF1E9AE21E00071691 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590A9EA1E9AE1D800071691 /* FileManager.swift */; };
+		1590A9F01E9AE23300071691 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590A9EA1E9AE1D800071691 /* FileManager.swift */; };
+		1590A9F11E9AE23300071691 /* RCConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590A9EB1E9AE1D800071691 /* RCConfigManager.swift */; };
 		15ECFA881E9AB7EE00EC7810 /* test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFA871E9AB7EE00EC7810 /* test1.swift */; };
 		15ECFAA41E9AB81E00EC7810 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFA8B1E9AB81E00EC7810 /* Button.swift */; };
 		15ECFAA51E9AB81E00EC7810 /* ButtonLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFA8C1E9AB81E00EC7810 /* ButtonLoad.swift */; };
@@ -30,7 +34,6 @@
 		15ECFAAF1E9AB81E00EC7810 /* MyExceptionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFA961E9AB81E00EC7810 /* MyExceptionHandler.swift */; };
 		15ECFAB01E9AB81E00EC7810 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFA971E9AB81E00EC7810 /* Notification.swift */; };
 		15ECFAB11E9AB81E00EC7810 /* PrintLn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFA981E9AB81E00EC7810 /* PrintLn.swift */; };
-		15ECFAB21E9AB81E00EC7810 /* RCConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFA991E9AB81E00EC7810 /* RCConfigManager.swift */; };
 		15ECFAB31E9AB81E00EC7810 /* RCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFA9A1E9AB81E00EC7810 /* RCTabBarController.swift */; };
 		15ECFAB41E9AB81E00EC7810 /* RCTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFA9B1E9AB81E00EC7810 /* RCTableView.swift */; };
 		15ECFAB51E9AB81E00EC7810 /* RCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFA9C1E9AB81E00EC7810 /* RCTableViewController.swift */; };
@@ -49,7 +52,6 @@
 		15ECFACD1E9AB85E00EC7810 /* JSONSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC51E9AB85E00EC7810 /* JSONSerializable.swift */; };
 		15ECFACE1E9AB85E00EC7810 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC61E9AB85E00EC7810 /* String+Ext.swift */; };
 		15ECFAD11E9AB8CB00EC7810 /* KeyValuePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAD01E9AB8CB00EC7810 /* KeyValuePair.swift */; };
-		15ECFAD31E9AB93D00EC7810 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAD21E9AB93D00EC7810 /* FileManager.swift */; };
 		15ECFAD71E9AB94700EC7810 /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC01E9AB85E00EC7810 /* Bundle+Ext.swift */; };
 		15ECFAD81E9AB94800EC7810 /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC01E9AB85E00EC7810 /* Bundle+Ext.swift */; };
 		15ECFAD91E9AB94800EC7810 /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC01E9AB85E00EC7810 /* Bundle+Ext.swift */; };
@@ -76,8 +78,6 @@
 		15ECFB1A1E9AD32F00EC7810 /* TBAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFB181E9AD29E00EC7810 /* TBAnalytics.swift */; };
 		15ECFB211E9AD7E400EC7810 /* TBWKInterfaceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFB201E9AD7E400EC7810 /* TBWKInterfaceLabel.swift */; };
 		15ECFB231E9AD81A00EC7810 /* InterfaceLabelLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFB221E9AD81A00EC7810 /* InterfaceLabelLoad.swift */; };
-		15ECFB241E9AD8B200EC7810 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAD21E9AB93D00EC7810 /* FileManager.swift */; };
-		15ECFB251E9AD8D700EC7810 /* RCConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFA991E9AB81E00EC7810 /* RCConfigManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +89,8 @@
 		1590A9E41E9ADDEC00071691 /* InterfaceImageLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceImageLoad.swift; sourceTree = "<group>"; };
 		1590A9E61E9ADF6600071691 /* TBWKInterfaceGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBWKInterfaceGroup.swift; sourceTree = "<group>"; };
 		1590A9E81E9ADF9200071691 /* InterfaceGroupLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceGroupLoad.swift; sourceTree = "<group>"; };
+		1590A9EA1E9AE1D800071691 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		1590A9EB1E9AE1D800071691 /* RCConfigManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCConfigManager.swift; sourceTree = "<group>"; };
 		15ECFA3F1E9AA2DA00EC7810 /* TBMBaaSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBMBaaSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15ECFA4D1E9AA2FB00EC7810 /* TBMBaaSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBMBaaSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15ECFA5A1E9AA30E00EC7810 /* TBMBaaSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBMBaaSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,7 +110,6 @@
 		15ECFA961E9AB81E00EC7810 /* MyExceptionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyExceptionHandler.swift; sourceTree = "<group>"; };
 		15ECFA971E9AB81E00EC7810 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		15ECFA981E9AB81E00EC7810 /* PrintLn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintLn.swift; sourceTree = "<group>"; };
-		15ECFA991E9AB81E00EC7810 /* RCConfigManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCConfigManager.swift; sourceTree = "<group>"; };
 		15ECFA9A1E9AB81E00EC7810 /* RCTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTabBarController.swift; sourceTree = "<group>"; };
 		15ECFA9B1E9AB81E00EC7810 /* RCTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTableView.swift; sourceTree = "<group>"; };
 		15ECFA9C1E9AB81E00EC7810 /* RCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTableViewController.swift; sourceTree = "<group>"; };
@@ -127,7 +128,6 @@
 		15ECFAC51E9AB85E00EC7810 /* JSONSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializable.swift; sourceTree = "<group>"; };
 		15ECFAC61E9AB85E00EC7810 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		15ECFAD01E9AB8CB00EC7810 /* KeyValuePair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValuePair.swift; sourceTree = "<group>"; };
-		15ECFAD21E9AB93D00EC7810 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		15ECFAF31E9ABDC500EC7810 /* MBaaSKit iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MBaaSKit iOS.h"; path = "../MBaaSKit iOS/MBaaSKit iOS.h"; sourceTree = "<group>"; };
 		15ECFAF71E9ABDCD00EC7810 /* MBaaSKit macOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBaaSKit macOS.h"; sourceTree = "<group>"; };
 		15ECFAFB1E9ABDD500EC7810 /* MBaaSKit tvOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBaaSKit tvOS.h"; sourceTree = "<group>"; };
@@ -251,7 +251,6 @@
 				15ECFA8C1E9AB81E00EC7810 /* ButtonLoad.swift */,
 				15ECFA8D1E9AB81E00EC7810 /* Cell.swift */,
 				15ECFA8E1E9AB81E00EC7810 /* CellViewLoad.swift */,
-				15ECFAD21E9AB93D00EC7810 /* FileManager.swift */,
 				15ECFA8F1E9AB81E00EC7810 /* HTTPSRequest.swift */,
 				15ECFA901E9AB81E00EC7810 /* ImageLoad.swift */,
 				15ECFA921E9AB81E00EC7810 /* ImageView+Ext.swift */,
@@ -262,7 +261,6 @@
 				15ECFA961E9AB81E00EC7810 /* MyExceptionHandler.swift */,
 				15ECFA971E9AB81E00EC7810 /* Notification.swift */,
 				15ECFA981E9AB81E00EC7810 /* PrintLn.swift */,
-				15ECFA991E9AB81E00EC7810 /* RCConfigManager.swift */,
 				15ECFA9A1E9AB81E00EC7810 /* RCTabBarController.swift */,
 				15ECFA9B1E9AB81E00EC7810 /* RCTableView.swift */,
 				15ECFA9C1E9AB81E00EC7810 /* RCTableViewController.swift */,
@@ -305,6 +303,8 @@
 		15ECFABD1E9AB82400EC7810 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1590A9EA1E9AE1D800071691 /* FileManager.swift */,
+				1590A9EB1E9AE1D800071691 /* RCConfigManager.swift */,
 				15ECFAC01E9AB85E00EC7810 /* Bundle+Ext.swift */,
 				15ECFAC11E9AB85E00EC7810 /* Data+Ext.swift */,
 				15ECFAC21E9AB85E00EC7810 /* Date+Ext.swift */,
@@ -514,9 +514,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1590A9EF1E9AE21E00071691 /* FileManager.swift in Sources */,
+				1590A9EE1E9AE21800071691 /* RCConfigManager.swift in Sources */,
 				15ECFB1A1E9AD32F00EC7810 /* TBAnalytics.swift in Sources */,
 				15ECFACD1E9AB85E00EC7810 /* JSONSerializable.swift in Sources */,
-				15ECFAB21E9AB81E00EC7810 /* RCConfigManager.swift in Sources */,
 				15ECFAAC1E9AB81E00EC7810 /* InstallationObject.swift in Sources */,
 				15ECFAA71E9AB81E00EC7810 /* CellViewLoad.swift in Sources */,
 				15ECFAB71E9AB81E00EC7810 /* TabBarLoad.swift in Sources */,
@@ -532,7 +533,6 @@
 				15ECFABC1E9AB81E00EC7810 /* ViewControllerLoad.swift in Sources */,
 				15ECFAB61E9AB81E00EC7810 /* RCViewController.swift in Sources */,
 				15ECFAB41E9AB81E00EC7810 /* RCTableView.swift in Sources */,
-				15ECFAD31E9AB93D00EC7810 /* FileManager.swift in Sources */,
 				15ECFAB51E9AB81E00EC7810 /* RCTableViewController.swift in Sources */,
 				15ECFACB1E9AB85E00EC7810 /* Dictionary+Ext.swift in Sources */,
 				15ECFACE1E9AB85E00EC7810 /* String+Ext.swift in Sources */,
@@ -557,11 +557,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1590A9F01E9AE23300071691 /* FileManager.swift in Sources */,
+				1590A9F11E9AE23300071691 /* RCConfigManager.swift in Sources */,
 				1590A9DB1E9ADAA700071691 /* TBWKInterfaceTable.swift in Sources */,
 				15ECFB211E9AD7E400EC7810 /* TBWKInterfaceLabel.swift in Sources */,
 				15ECFADA1E9AB94B00EC7810 /* Data+Ext.swift in Sources */,
 				1590A9E31E9ADDC400071691 /* TBWKInterfaceImage.swift in Sources */,
-				15ECFB251E9AD8D700EC7810 /* RCConfigManager.swift in Sources */,
 				15ECFB231E9AD81A00EC7810 /* InterfaceLabelLoad.swift in Sources */,
 				1590A9DF1E9ADCF300071691 /* TBWKInterfaceSeparator.swift in Sources */,
 				1590A9E71E9ADF6600071691 /* TBWKInterfaceGroup.swift in Sources */,
@@ -573,7 +574,6 @@
 				1590A9E51E9ADDEC00071691 /* InterfaceImageLoad.swift in Sources */,
 				15ECFAE91E9AB96000EC7810 /* String+Ext.swift in Sources */,
 				15ECFB141E9ACB5B00EC7810 /* Float+Ext.swift in Sources */,
-				15ECFB241E9AD8B200EC7810 /* FileManager.swift in Sources */,
 				15ECFB111E9ACB2E00EC7810 /* Dictionary+Ext.swift in Sources */,
 				15ECFADD1E9AB94F00EC7810 /* Date+Ext.swift in Sources */,
 				15ECFB121E9ACB5100EC7810 /* KeyValuePair.swift in Sources */,
