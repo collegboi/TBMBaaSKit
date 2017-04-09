@@ -18,6 +18,8 @@ import Foundation
     import UIKit
 #elseif os(watchOS)
     import WatchKit
+#elseif os(tvOS)
+    import CoreGraphics
 #endif
 
 

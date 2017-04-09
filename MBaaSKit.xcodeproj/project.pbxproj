@@ -64,6 +64,9 @@
 		15ECFB121E9ACB5100EC7810 /* KeyValuePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAD01E9AB8CB00EC7810 /* KeyValuePair.swift */; };
 		15ECFB131E9ACB5600EC7810 /* JSONSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC51E9AB85E00EC7810 /* JSONSerializable.swift */; };
 		15ECFB141E9ACB5B00EC7810 /* Float+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC41E9AB85E00EC7810 /* Float+Ext.swift */; };
+		15ECFB151E9ACDAC00EC7810 /* Dictionary+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC31E9AB85E00EC7810 /* Dictionary+Ext.swift */; };
+		15ECFB161E9ACDB500EC7810 /* KeyValuePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAD01E9AB8CB00EC7810 /* KeyValuePair.swift */; };
+		15ECFB171E9ACDB800EC7810 /* JSONSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC51E9AB85E00EC7810 /* JSONSerializable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -543,8 +546,11 @@
 			files = (
 				15ECFADB1E9AB94C00EC7810 /* Data+Ext.swift in Sources */,
 				15ECFAD81E9AB94800EC7810 /* Bundle+Ext.swift in Sources */,
+				15ECFB171E9ACDB800EC7810 /* JSONSerializable.swift in Sources */,
 				15ECFAEA1E9AB96000EC7810 /* String+Ext.swift in Sources */,
+				15ECFB151E9ACDAC00EC7810 /* Dictionary+Ext.swift in Sources */,
 				15ECFADE1E9AB95000EC7810 /* Date+Ext.swift in Sources */,
+				15ECFB161E9ACDB500EC7810 /* KeyValuePair.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
