@@ -31,11 +31,20 @@ This framework provides tools to handle sending and retrieving objects from the 
   s.ios.deployment_target = '8.0' 
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
-  #s.macos.deployment_target = '10.0'
-  s.source_files = 'Sources/**/*.{h,swift}'
+  s.osx.deployment_target  = '10.10'
+  #s.source_files = 'Sources/**/*.{h,swift}'
+
+  s.source_files       = 'Sources/Shared/*.swift'
+  s.ios.source_files   = 'Sources/iOS/*.swift'
+  s.watchos.source_files   = 'Sources/watchOS/*.swift'
+  s.tvos.source_files   = 'Sources/tvOS/*.swift'
+  #s.osx.source_files   = 'Sources/osx/*.swift'
   
-  #s.ios.frameworks = 'MobileCoreServices', 'SystemConfiguration'
-  #s.osx.frameworks = 'CoreServices', 'SystemConfiguration'
+  s.framework      = 'SystemConfiguration'
+
+  s.ios.framework  = 'UIKit'
+  s.watchos.framework = 'WatchKit'
+  s.osx.framework  = 'AppKit'
 
   # s.resource_bundles = {
   #   'MBaaSKit' => ['MBaaSKit/Assets/*.png']
