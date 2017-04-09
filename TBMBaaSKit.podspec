@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBMBaaSKit'
-  s.version          = '0.1.0.9'
+  s.version          = '0.1.0.10'
   s.summary          = 'TBMBaaSKit is a framework for connecting to TBMBaaSKit Sever.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ This framework provides tools to handle sending and retrieving objects from the 
   s.ios.deployment_target = '8.0' 
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
-  s.osx.deployment_target  = '10.10'
+  #s.osx.deployment_target  = '10.10'
   #s.source_files = 'Sources/**/*.{h,swift}'
 
   s.source_files       = 'Sources/Shared/*.swift'
