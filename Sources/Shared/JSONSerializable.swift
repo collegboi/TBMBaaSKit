@@ -366,7 +366,7 @@ public extension TBJSONSerializable {
         serverKey = serverKey.readPlistString(value: "SERVERKEY")
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authen_key")
+            request.setValue(serverKey, forHTTPHeaderField: "authorization")
         }
         
         URLSession.shared.dataTask(with: request) { (data, response, error) in
@@ -449,7 +449,7 @@ public extension TBJSONSerializable {
         serverKey = serverKey.readPlistString(value: "SERVERKEY")
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authen_key")
+            request.setValue(serverKey, forHTTPHeaderField: "authorization")
         }
         
         var genericTable : GenericTable?
@@ -592,7 +592,7 @@ public extension TBJSONSerializable {
         serverKey = serverKey.readPlistString(value: "SERVERKEY")
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authen_key")
+            request.setValue(serverKey, forHTTPHeaderField: "authorization")
         }
         
         URLSession.shared.dataTask(with: request) { (data, response, error) in
@@ -671,7 +671,7 @@ public extension TBJSONSerializable {
         serverKey = serverKey.readPlistString(value: "SERVERKEY")
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authen_key")
+            request.setValue(serverKey, forHTTPHeaderField: "authorization")
         }
         
         URLSession.shared.dataTask(with: request) { (data, response, error) in
@@ -756,7 +756,7 @@ public extension TBJSONSerializable {
             serverKey = serverKey.readPlistString(value: "SERVERKEY")
             
             if serverKey != "" {
-                request.setValue(serverKey, forHTTPHeaderField: "authen_key")
+                request.setValue(serverKey, forHTTPHeaderField: "authorization")
             }
             
             do {
@@ -854,7 +854,7 @@ public extension Array where Element: TBJSONSerializable {
 
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authen_key")
+            request.setValue(serverKey, forHTTPHeaderField: "authorization")
         }
         
         //if let token = _currentUser?.currentToken {
@@ -979,7 +979,7 @@ public extension Array where Element: TBJSONSerializable {
         serverKey = serverKey.readPlistString(value: "SERVERKEY")
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authen_key")
+            request.setValue(serverKey, forHTTPHeaderField: "authorization")
         }
         
         var allT = [T]()

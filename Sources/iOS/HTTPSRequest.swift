@@ -100,7 +100,7 @@ public class HTTPSRequest {
         serverKey = serverKey.readPlistString(value: "SERVERKEY")
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authen_key")
+            request.setValue(serverKey, forHTTPHeaderField: "authorization")
         }
         
         request.setValue("multipart/form-data; boundary=\(boundary)", forHTTPHeaderField: "Content-Type")
