@@ -8,7 +8,6 @@
 import Foundation
 import UIKit
 
-    
 public class RCConfigManager {
     
     public func checkConfigLangFilesExist() -> Bool {
@@ -160,35 +159,35 @@ public class RCConfigManager {
         
         var fontName: String = ""
         var size : CGFloat = 0.0
-        for (key, value) in dict {
-            
-            switch key {
-            //lightContent = 1 default = 0 dark
-            case "statusBarStyle":
-                UIApplication.shared.statusBarStyle = UIStatusBarStyle(rawValue: (value as! Int))!
-                break
-            case "barTintColor" where dict.tryConvert(forKey: key) != "":
-                UINavigationBar.appearance().barTintColor = RCConfigManager.getColor(name: (value as! String), defaultColor: .white)
-                break
-            case "font" where dict.tryConvert(forKey: key) != "":
-                fontName = (value as! String)
-                break
-            case "fontSize" where dict.tryConvert(forKey: key) != "":
-                size = dict.tryConvert(forKey: "fontSize")
-                break
-            case "tintColor" where dict.tryConvert(forKey: key) != "":
-                UINavigationBar.appearance().tintColor  = RCConfigManager.getColor(name: (value as! String), defaultColor: .black)
-                break
-            case "isTranslucent" where dict.tryConvert(forKey: key) != "":
-                UINavigationBar.appearance().isTranslucent = ((value as! Int)  == 1) ? true : false
-                break
-            default: break
-            }
-        }
-        
-        if !fontName.isEmpty && size != 0.0 {
-            UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white,NSFontAttributeName: UIFont(name: fontName, size: size)!]
-        }
+//        for (key, value) in dict {
+//            
+//            switch key {
+//            //lightContent = 1 default = 0 dark
+//            case "statusBarStyle":
+//                UIApplication.shared.statusBarStyle = UIStatusBarStyle(rawValue: (value as! Int))!
+//                break
+//            case "barTintColor" where dict.tryConvert(forKey: key) != "":
+//                UINavigationBar.appearance().barTintColor = RCConfigManager.getColor(name: (value as! String), defaultColor: .white)
+//                break
+//            case "font" where dict.tryConvert(forKey: key) != "":
+//                fontName = (value as! String)
+//                break
+//            case "fontSize" where dict.tryConvert(forKey: key) != "":
+//                size = dict.tryConvert(forKey: "fontSize")
+//                break
+//            case "tintColor" where dict.tryConvert(forKey: key) != "":
+//                UINavigationBar.appearance().tintColor  = RCConfigManager.getColor(name: (value as! String), defaultColor: .black)
+//                break
+//            case "isTranslucent" where dict.tryConvert(forKey: key) != "":
+//                UINavigationBar.appearance().isTranslucent = ((value as! Int)  == 1) ? true : false
+//                break
+//            default: break
+//            }
+//        }
+//        
+//        if !fontName.isEmpty && size != 0.0 {
+//            UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white,NSFontAttributeName: UIFont(name: fontName, size: size)!]
+//        }
         
     }
     
@@ -216,7 +215,7 @@ public class RCConfigManager {
             switch key {
             //lightContent = 1 default = 0 dark
             case "statusBarStyle":
-                UIApplication.shared.statusBarStyle = UIStatusBarStyle(rawValue: (value as! Int))!
+                //UIApplication.shared.statusBarStyle = UIStatusBarStyle(rawValue: (value as! Int))!
                 break
             case "barTintColor" where dict.tryConvert(forKey: key) != "":
                 className.navigationController?.navigationBar.barTintColor = RCConfigManager.getColor(name: (value as! String), defaultColor: .white)
