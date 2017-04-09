@@ -6,7 +6,13 @@
 //
 //
 import Foundation
-import UIKit
+
+#if os(iOS)
+    import UIKit
+#elseif os(watchOS)
+    import WatchKit
+#endif
+
 
 public class RCConfigManager {
     

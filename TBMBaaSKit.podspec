@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBMBaaSKit'
-  s.version          = '0.1.0.8'
+  s.version          = '0.1.0.9'
   s.summary          = 'TBMBaaSKit is a framework for connecting to TBMBaaSKit Sever.'
 
 # This description is used to generate tags and improve search results.
