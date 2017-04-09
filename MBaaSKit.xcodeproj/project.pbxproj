@@ -41,7 +41,6 @@
 		15ECFACC1E9AB85E00EC7810 /* Float+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC41E9AB85E00EC7810 /* Float+Ext.swift */; };
 		15ECFACD1E9AB85E00EC7810 /* JSONSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC51E9AB85E00EC7810 /* JSONSerializable.swift */; };
 		15ECFACE1E9AB85E00EC7810 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC61E9AB85E00EC7810 /* String+Ext.swift */; };
-		15ECFACF1E9AB85E00EC7810 /* TBAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC71E9AB85E00EC7810 /* TBAnalytics.swift */; };
 		15ECFAD11E9AB8CB00EC7810 /* KeyValuePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAD01E9AB8CB00EC7810 /* KeyValuePair.swift */; };
 		15ECFAD31E9AB93D00EC7810 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAD21E9AB93D00EC7810 /* FileManager.swift */; };
 		15ECFAD71E9AB94700EC7810 /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC01E9AB85E00EC7810 /* Bundle+Ext.swift */; };
@@ -67,6 +66,7 @@
 		15ECFB151E9ACDAC00EC7810 /* Dictionary+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC31E9AB85E00EC7810 /* Dictionary+Ext.swift */; };
 		15ECFB161E9ACDB500EC7810 /* KeyValuePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAD01E9AB8CB00EC7810 /* KeyValuePair.swift */; };
 		15ECFB171E9ACDB800EC7810 /* JSONSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC51E9AB85E00EC7810 /* JSONSerializable.swift */; };
+		15ECFB1A1E9AD32F00EC7810 /* TBAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFB181E9AD29E00EC7810 /* TBAnalytics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,7 +108,6 @@
 		15ECFAC41E9AB85E00EC7810 /* Float+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Float+Ext.swift"; sourceTree = "<group>"; };
 		15ECFAC51E9AB85E00EC7810 /* JSONSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializable.swift; sourceTree = "<group>"; };
 		15ECFAC61E9AB85E00EC7810 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
-		15ECFAC71E9AB85E00EC7810 /* TBAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBAnalytics.swift; sourceTree = "<group>"; };
 		15ECFAD01E9AB8CB00EC7810 /* KeyValuePair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValuePair.swift; sourceTree = "<group>"; };
 		15ECFAD21E9AB93D00EC7810 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		15ECFAF31E9ABDC500EC7810 /* MBaaSKit iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MBaaSKit iOS.h"; path = "../MBaaSKit iOS/MBaaSKit iOS.h"; sourceTree = "<group>"; };
@@ -119,6 +118,7 @@
 		15ECFB0A1E9ACABE00EC7810 /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		15ECFB0B1E9ACABE00EC7810 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		15ECFB0C1E9ACABE00EC7810 /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
+		15ECFB181E9AD29E00EC7810 /* TBAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBAnalytics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +226,7 @@
 		15ECFA761E9AB6F100EC7810 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				15ECFB181E9AD29E00EC7810 /* TBAnalytics.swift */,
 				15ECFA8B1E9AB81E00EC7810 /* Button.swift */,
 				15ECFA8C1E9AB81E00EC7810 /* ButtonLoad.swift */,
 				15ECFA8D1E9AB81E00EC7810 /* Cell.swift */,
@@ -283,7 +284,6 @@
 				15ECFAC51E9AB85E00EC7810 /* JSONSerializable.swift */,
 				15ECFAD01E9AB8CB00EC7810 /* KeyValuePair.swift */,
 				15ECFAC61E9AB85E00EC7810 /* String+Ext.swift */,
-				15ECFAC71E9AB85E00EC7810 /* TBAnalytics.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -485,6 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15ECFB1A1E9AD32F00EC7810 /* TBAnalytics.swift in Sources */,
 				15ECFACD1E9AB85E00EC7810 /* JSONSerializable.swift in Sources */,
 				15ECFAB21E9AB81E00EC7810 /* RCConfigManager.swift in Sources */,
 				15ECFAAC1E9AB81E00EC7810 /* InstallationObject.swift in Sources */,
@@ -503,7 +504,6 @@
 				15ECFABC1E9AB81E00EC7810 /* ViewControllerLoad.swift in Sources */,
 				15ECFAB61E9AB81E00EC7810 /* RCViewController.swift in Sources */,
 				15ECFAB41E9AB81E00EC7810 /* RCTableView.swift in Sources */,
-				15ECFACF1E9AB85E00EC7810 /* TBAnalytics.swift in Sources */,
 				15ECFAD31E9AB93D00EC7810 /* FileManager.swift in Sources */,
 				15ECFAB51E9AB81E00EC7810 /* RCTableViewController.swift in Sources */,
 				15ECFACB1E9AB85E00EC7810 /* Dictionary+Ext.swift in Sources */,
