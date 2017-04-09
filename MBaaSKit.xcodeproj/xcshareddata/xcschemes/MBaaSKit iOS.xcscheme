@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "15ECFA3E1E9AA2DA00EC7810"
-               BuildableName = "MBaaSKit iOS.framework"
+               BuildableName = "MBaaSKit.framework"
                BlueprintName = "MBaaSKit iOS"
                ReferencedContainer = "container:MBaaSKit.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15ECFA3E1E9AA2DA00EC7810"
-            BuildableName = "MBaaSKit iOS.framework"
+            BuildableName = "MBaaSKit.framework"
             BlueprintName = "MBaaSKit iOS"
             ReferencedContainer = "container:MBaaSKit.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15ECFA3E1E9AA2DA00EC7810"
-            BuildableName = "MBaaSKit iOS.framework"
+            BuildableName = "MBaaSKit.framework"
             BlueprintName = "MBaaSKit iOS"
             ReferencedContainer = "container:MBaaSKit.xcodeproj">
          </BuildableReference>

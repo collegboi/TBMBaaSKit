@@ -1,4 +1,4 @@
-# MBaaSKit
+# TBMBaaSKit
 
 [![CI Status](http://img.shields.io/travis/collegboi/MBaaSKit.svg?style=flat)](https://travis-ci.org/collegboi/MBaaSKit)
 [![Version](https://img.shields.io/cocoapods/v/MBaaSKit.svg?style=flat)](http://cocoapods.org/pods/MBaaSKit)
@@ -24,7 +24,7 @@ MBaaSKit is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "MBaaSKit"
+pod "TBMBaaSKit"
 ```
 
 ## Usage
