@@ -9,10 +9,10 @@
 #import <UIKit/UIKit.h>
 
 //! Project version number for MBaaSKit iOS.
-FOUNDATION_EXPORT double MBaaSKit_iOSVersionNumber;
+FOUNDATION_EXPORT double MBaaSKitVersionNumber;
 
 //! Project version string for MBaaSKit iOS.
-FOUNDATION_EXPORT const unsigned char MBaaSKit_iOSVersionString[];
+FOUNDATION_EXPORT const unsigned char MBaaSKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MBaaSKit_iOS/PublicHeader.h>
 
