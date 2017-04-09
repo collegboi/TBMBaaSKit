@@ -8,6 +8,13 @@
 
 import Foundation
 
+#if os(iOS)
+    import UIKit
+#elseif os(watchOS)
+    import WatchKit
+#endif
+
+
 public class KeyValuePair {
     
     let key: String

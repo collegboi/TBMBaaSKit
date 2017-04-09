@@ -8,6 +8,13 @@
 
 import Foundation
 
+#if os(iOS)
+    import UIKit
+#elseif os(watchOS)
+    import WatchKit
+#endif
+
+
 public extension Float {
     /// Rounds the double to decimal places value
     func roundTo(places:Int) -> Float {

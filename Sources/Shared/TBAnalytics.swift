@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import UIKit
 
 public enum SendType: String {
     case OpenApp = "OpenApp"

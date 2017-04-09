@@ -153,12 +153,12 @@ public class RCConfigManager {
      */
     public class func updateNavigationBar(className: UIResponder, objectName: String = "UINavigationBar" ) {
         
-        let dict = RCConfigManager.getObjectProperties(className:  String(describing: type(of: className)), objectName: objectName)
-        
-        UserDefaults.standard.set(String(describing: type(of: className)), forKey: "navClass")
-        
-        var fontName: String = ""
-        var size : CGFloat = 0.0
+//        let dict = RCConfigManager.getObjectProperties(className:  String(describing: type(of: className)), objectName: objectName)
+//        
+//        UserDefaults.standard.set(String(describing: type(of: className)), forKey: "navClass")
+//        
+//        var fontName: String = ""
+//        var size : CGFloat = 0.0
 //        for (key, value) in dict {
 //            
 //            switch key {

@@ -14,6 +14,13 @@
 //
 import Foundation
 
+#if os(iOS)
+    import UIKit
+#elseif os(watchOS)
+    import WatchKit
+#endif
+
+
 
 public typealias TBJSON = [String:Any]
 public typealias TBObjectID = String
@@ -882,17 +889,17 @@ public extension Array where Element: TBJSONSerializable {
                     return
                 }
                 
-                guard let configObject = dataObjects["config"] as? [String:Any] else {
-                    return
-                }
+//                guard let configObject = dataObjects["config"] as? [String:Any] else {
+//                    return
+//                }
                 
-                let version: String = configObject.tryConvert(forKey: "version")
-                
-                if version != "0.0" {
-                    
-                    RCConfigManager.getConfigVersion()
-                    
-                }
+//                let version: String = configObject.tryConvert(forKey: "version")
+//                
+//                if version != "0.0" {
+//                    
+//                    RCConfigManager.getConfigVersion()
+//                    
+//                }
 
                 
                 let allObjects = dataObjects["data"] as? NSArray
@@ -991,17 +998,17 @@ public extension Array where Element: TBJSONSerializable {
                     return
                 }
                 
-                guard let configObject = dataObjects["config"] as? [String:Any] else {
-                    return
-                }
+//                guard let configObject = dataObjects["config"] as? [String:Any] else {
+//                    return
+//                }
                 
-                let version: String = configObject.tryConvert(forKey: "version")
-                
-                if version != "0.0" {
-                    
-                    RCConfigManager.getConfigVersion()
-                    
-                }
+//                let version: String = configObject.tryConvert(forKey: "version")
+//                
+//                if version != "0.0" {
+//                    
+//                    RCConfigManager.getConfigVersion()
+//                    
+//                }
 
                 
                 let allObjects = dataObjects["data"] as? NSArray
