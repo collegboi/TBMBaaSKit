@@ -144,7 +144,7 @@ public class RCConfigManager {
         UserDefaults.standard.set(version, forKey: "version")
         //self.checkAndGetVersion("version", version: version)
     }
-    
+    #if os(iOS)
     /**
      updateNavigationBar
      - parameters
@@ -241,7 +241,7 @@ public class RCConfigManager {
         }
         
     }
-
+    #endif
     /**
      getConfigThemeVersion
      - parameters

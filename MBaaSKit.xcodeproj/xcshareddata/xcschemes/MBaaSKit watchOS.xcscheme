@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "15ECFA4C1E9AA2FB00EC7810"
-               BuildableName = "MBaaSKit.framework"
+               BuildableName = "TBMBaaSKit.framework"
                BlueprintName = "MBaaSKit watchOS"
                ReferencedContainer = "container:MBaaSKit.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15ECFA4C1E9AA2FB00EC7810"
-            BuildableName = "MBaaSKit.framework"
+            BuildableName = "TBMBaaSKit.framework"
             BlueprintName = "MBaaSKit watchOS"
             ReferencedContainer = "container:MBaaSKit.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15ECFA4C1E9AA2FB00EC7810"
-            BuildableName = "MBaaSKit.framework"
+            BuildableName = "TBMBaaSKit.framework"
             BlueprintName = "MBaaSKit watchOS"
             ReferencedContainer = "container:MBaaSKit.xcodeproj">
          </BuildableReference>

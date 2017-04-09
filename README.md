@@ -1,9 +1,9 @@
 # TBMBaaSKit
 
-[![CI Status](http://img.shields.io/travis/collegboi/MBaaSKit.svg?style=flat)](https://travis-ci.org/collegboi/MBaaSKit)
-[![Version](https://img.shields.io/cocoapods/v/MBaaSKit.svg?style=flat)](http://cocoapods.org/pods/MBaaSKit)
-[![License](https://img.shields.io/cocoapods/l/MBaaSKit.svg?style=flat)](http://cocoapods.org/pods/MBaaSKit)
-[![Platform](https://img.shields.io/cocoapods/p/MBaaSKit.svg?style=flat)](http://cocoapods.org/pods/MBaaSKit)
+[![CI Status](http://img.shields.io/travis/collegboi/TBMBaaSKit.svg?style=flat)](https://travis-ci.org/collegboi/TBMBaaSKit)
+[![Version](https://img.shields.io/cocoapods/v/TBMBaaSKit.svg?style=flat)](http://cocoapods.org/pods/TBMBaaSKit)
+[![License](https://img.shields.io/cocoapods/l/TBMBaaSKit.svg?style=flat)](http://cocoapods.org/pods/TBMBaaSKit)
+[![Platform](https://img.shields.io/cocoapods/p/TBMBaaSKit.svg?style=flat)](http://cocoapods.org/pods/TBMBaaSKit)
 
 ## Description
 
