@@ -12,8 +12,6 @@ import Foundation
     import MobileCoreServices
 #elseif os(watchOS)
     import WatchKit
-#else
-    import CoreServices
 #endif
 
 public class HTTPSRequest {
