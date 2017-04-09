@@ -282,6 +282,14 @@ public class RCConfigManager {
         //    request.setValue("Bearer \(token)", forHTTPHeaderField: "authorization")
         // }
         
+        var serverKey: String = ""
+        serverKey = serverKey.readPlistString(value: "SERVERKEY")
+        
+        if serverKey != "" {
+            request.setValue(serverKey, forHTTPHeaderField: "authorization")
+        }
+
+        
         
         URLSession.shared.dataTask(with: request) { (data, response, error) in
             
@@ -337,6 +345,14 @@ public class RCConfigManager {
         //if let token = _currentUser?.currentToken {
         //    request.setValue("Bearer \(token)", forHTTPHeaderField: "authorization")
         // }
+        
+        var serverKey: String = ""
+        serverKey = serverKey.readPlistString(value: "SERVERKEY")
+        
+        if serverKey != "" {
+            request.setValue(serverKey, forHTTPHeaderField: "authorization")
+        }
+
         
         
         URLSession.shared.dataTask(with: request) { (data, response, error) in
@@ -394,6 +410,13 @@ public class RCConfigManager {
         //    request.setValue("Bearer \(token)", forHTTPHeaderField: "authorization")
         // }
         
+        var serverKey: String = ""
+        serverKey = serverKey.readPlistString(value: "SERVERKEY")
+        
+        if serverKey != "" {
+            request.setValue(serverKey, forHTTPHeaderField: "authorization")
+        }
+
         
         URLSession.shared.dataTask(with: request) { (data, response, error) in
             
