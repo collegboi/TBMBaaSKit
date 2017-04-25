@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1562982F1EAF9E0C00909BB1 /* MBaaSKit iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ECFAF31E9ABDC500EC7810 /* MBaaSKit iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		156298301EAF9E0C00909BB1 /* MBaaSKit iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ECFAF31E9ABDC500EC7810 /* MBaaSKit iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		156298311EAF9E0D00909BB1 /* MBaaSKit iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ECFAF31E9ABDC500EC7810 /* MBaaSKit iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1590A9DB1E9ADAA700071691 /* TBWKInterfaceTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590A9D91E9ADA9F00071691 /* TBWKInterfaceTable.swift */; };
 		1590A9DD1E9ADAD600071691 /* InterfaceTableLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590A9DC1E9ADAD600071691 /* InterfaceTableLoad.swift */; };
 		1590A9DF1E9ADCF300071691 /* TBWKInterfaceSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590A9DE1E9ADCF300071691 /* TBWKInterfaceSeparator.swift */; };
@@ -64,10 +67,7 @@
 		15ECFAE91E9AB96000EC7810 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC61E9AB85E00EC7810 /* String+Ext.swift */; };
 		15ECFAEA1E9AB96000EC7810 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC61E9AB85E00EC7810 /* String+Ext.swift */; };
 		15ECFAEB1E9AB96100EC7810 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC61E9AB85E00EC7810 /* String+Ext.swift */; };
-		15ECFAF51E9ABDC500EC7810 /* MBaaSKit iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ECFAF31E9ABDC500EC7810 /* MBaaSKit iOS.h */; };
-		15ECFAF91E9ABDCD00EC7810 /* MBaaSKit macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ECFAF71E9ABDCD00EC7810 /* MBaaSKit macOS.h */; };
-		15ECFAFD1E9ABDD500EC7810 /* MBaaSKit tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ECFAFB1E9ABDD500EC7810 /* MBaaSKit tvOS.h */; };
-		15ECFB011E9ABDE600EC7810 /* MBaaSKit watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ECFAFF1E9ABDE600EC7810 /* MBaaSKit watchOS.h */; };
+		15ECFAF51E9ABDC500EC7810 /* MBaaSKit iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ECFAF31E9ABDC500EC7810 /* MBaaSKit iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15ECFB111E9ACB2E00EC7810 /* Dictionary+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC31E9AB85E00EC7810 /* Dictionary+Ext.swift */; };
 		15ECFB121E9ACB5100EC7810 /* KeyValuePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAD01E9AB8CB00EC7810 /* KeyValuePair.swift */; };
 		15ECFB131E9ACB5600EC7810 /* JSONSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECFAC51E9AB85E00EC7810 /* JSONSerializable.swift */; };
@@ -129,9 +129,6 @@
 		15ECFAC61E9AB85E00EC7810 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		15ECFAD01E9AB8CB00EC7810 /* KeyValuePair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValuePair.swift; sourceTree = "<group>"; };
 		15ECFAF31E9ABDC500EC7810 /* MBaaSKit iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MBaaSKit iOS.h"; path = "../MBaaSKit iOS/MBaaSKit iOS.h"; sourceTree = "<group>"; };
-		15ECFAF71E9ABDCD00EC7810 /* MBaaSKit macOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBaaSKit macOS.h"; sourceTree = "<group>"; };
-		15ECFAFB1E9ABDD500EC7810 /* MBaaSKit tvOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBaaSKit tvOS.h"; sourceTree = "<group>"; };
-		15ECFAFF1E9ABDE600EC7810 /* MBaaSKit watchOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBaaSKit watchOS.h"; sourceTree = "<group>"; };
 		15ECFB091E9ACABE00EC7810 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		15ECFB0A1E9ACABE00EC7810 /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		15ECFB0B1E9ACABE00EC7810 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
@@ -206,7 +203,6 @@
 		15ECFA4E1E9AA2FB00EC7810 /* MBaaSKit watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				15ECFAFF1E9ABDE600EC7810 /* MBaaSKit watchOS.h */,
 			);
 			path = "MBaaSKit watchOS";
 			sourceTree = "<group>";
@@ -214,7 +210,6 @@
 		15ECFA5B1E9AA30E00EC7810 /* MBaaSKit tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				15ECFAFB1E9ABDD500EC7810 /* MBaaSKit tvOS.h */,
 			);
 			path = "MBaaSKit tvOS";
 			sourceTree = "<group>";
@@ -222,7 +217,6 @@
 		15ECFA681E9AA31D00EC7810 /* MBaaSKit macOS */ = {
 			isa = PBXGroup;
 			children = (
-				15ECFAF71E9ABDCD00EC7810 /* MBaaSKit macOS.h */,
 			);
 			path = "MBaaSKit macOS";
 			sourceTree = "<group>";
@@ -332,7 +326,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15ECFB011E9ABDE600EC7810 /* MBaaSKit watchOS.h in Headers */,
+				1562982F1EAF9E0C00909BB1 /* MBaaSKit iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +334,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15ECFAFD1E9ABDD500EC7810 /* MBaaSKit tvOS.h in Headers */,
+				156298301EAF9E0C00909BB1 /* MBaaSKit iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +342,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15ECFAF91E9ABDCD00EC7810 /* MBaaSKit macOS.h in Headers */,
+				156298311EAF9E0D00909BB1 /* MBaaSKit iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
