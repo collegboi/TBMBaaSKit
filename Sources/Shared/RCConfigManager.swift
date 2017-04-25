@@ -279,14 +279,14 @@ public class RCConfigManager {
         var request = URLRequest(url: endpoint)
         request.httpMethod = "GET"
         //if let token = _currentUser?.currentToken {
-        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "authorization")
+        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
         // }
         
         var serverKey: String = ""
         serverKey = serverKey.readPlistString(value: "SERVERKEY")
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authorization")
+            request.setValue(serverKey, forHTTPHeaderField: "Authorization")
         }
 
         
@@ -343,14 +343,14 @@ public class RCConfigManager {
         var request = URLRequest(url: endpoint)
         request.httpMethod = "GET"
         //if let token = _currentUser?.currentToken {
-        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "authorization")
+        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
         // }
         
         var serverKey: String = ""
         serverKey = serverKey.readPlistString(value: "SERVERKEY")
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authorization")
+            request.setValue(serverKey, forHTTPHeaderField: "Authorization")
         }
 
         
@@ -407,14 +407,14 @@ public class RCConfigManager {
         var request = URLRequest(url: endpoint)
         request.httpMethod = "GET"
         //if let token = _currentUser?.currentToken {
-        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "authorization")
+        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
         // }
         
         var serverKey: String = ""
         serverKey = serverKey.readPlistString(value: "SERVERKEY")
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authorization")
+            request.setValue(serverKey, forHTTPHeaderField: "Authorization")
         }
 
         

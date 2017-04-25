@@ -359,14 +359,14 @@ public extension TBJSONSerializable {
         request.httpMethod = "GET"
         
         //if let token = _currentUser?.currentToken {
-        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "authorization")
+        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
         // }
         
         var serverKey: String = ""
         serverKey = serverKey.readPlistString(value: "SERVERKEY")
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authorization")
+            request.setValue(serverKey, forHTTPHeaderField: "Authorization")
         }
         
         URLSession.shared.dataTask(with: request) { (data, response, error) in
@@ -442,14 +442,14 @@ public extension TBJSONSerializable {
         var request = URLRequest(url: endpoint)
         request.httpMethod = "GET"
         //if let token = _currentUser?.currentToken {
-        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "authorization")
+        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
         // }
         
         var serverKey: String = ""
         serverKey = serverKey.readPlistString(value: "SERVERKEY")
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authorization")
+            request.setValue(serverKey, forHTTPHeaderField: "Authorization")
         }
         
         var genericTable : GenericTable?
@@ -586,13 +586,13 @@ public extension TBJSONSerializable {
         var request = URLRequest(url: endpoint)
         request.httpMethod = "DELETE"
         //if let token = _currentUser?.currentToken {
-        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "authorization")
+        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
         // }
         var serverKey: String = ""
         serverKey = serverKey.readPlistString(value: "SERVERKEY")
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authorization")
+            request.setValue(serverKey, forHTTPHeaderField: "Authorization")
         }
         
         URLSession.shared.dataTask(with: request) { (data, response, error) in
@@ -665,13 +665,13 @@ public extension TBJSONSerializable {
         var request = URLRequest(url: endpoint)
         request.httpMethod = "DELETE"
         //if let token = _currentUser?.currentToken {
-        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "authorization")
+        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
         // }
         var serverKey: String = ""
         serverKey = serverKey.readPlistString(value: "SERVERKEY")
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authorization")
+            request.setValue(serverKey, forHTTPHeaderField: "Authorization")
         }
         
         URLSession.shared.dataTask(with: request) { (data, response, error) in
@@ -756,7 +756,7 @@ public extension TBJSONSerializable {
             serverKey = serverKey.readPlistString(value: "SERVERKEY")
             
             if serverKey != "" {
-                request.setValue(serverKey, forHTTPHeaderField: "authorization")
+                request.setValue(serverKey, forHTTPHeaderField: "Authorization")
             }
             
             do {
@@ -854,11 +854,11 @@ public extension Array where Element: TBJSONSerializable {
 
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authorization")
+            request.setValue(serverKey, forHTTPHeaderField: "Authorization")
         }
         
         //if let token = _currentUser?.currentToken {
-        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "authorization")
+        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
         // }
         
         
@@ -972,14 +972,14 @@ public extension Array where Element: TBJSONSerializable {
         var request = URLRequest(url: endpoint)
         request.httpMethod = "GET"
         //if let token = _currentUser?.currentToken {
-        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "authorization")
+        //    request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
         // }
         
         var serverKey: String = ""
         serverKey = serverKey.readPlistString(value: "SERVERKEY")
         
         if serverKey != "" {
-            request.setValue(serverKey, forHTTPHeaderField: "authorization")
+            request.setValue(serverKey, forHTTPHeaderField: "Authorization")
         }
         
         var allT = [T]()
